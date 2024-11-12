@@ -10,6 +10,7 @@ const Header = () => {
                     <li><a href="#audience" className="text-[#605f6d] hover:text-gray-400 border-b-2 border-[#eeeedc]">Who</a></li>
                     <li><a href="#model" className="text-[#605f6d] hover:text-gray-400 border-b-2 border-[#eeeedc]">The Model</a></li>
                     <li><a href="#cycle" className="text-[#605f6d] hover:text-gray-400 border-b-2 border-[#eeeedc]">The Learning Cycle</a></li>
+                    <li><a href="#principles" className="text-[#605f6d] hover:text-gray-400 border-b-2 border-[#eeeedc]">Principles</a></li>
                     <li><a href="#contact" className="text-[#605f6d] hover:text-gray-400 border-b-2 border-[#eeeedc]">Contact</a></li>
                 </ul>
             </nav>

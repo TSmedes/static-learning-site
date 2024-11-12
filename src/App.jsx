@@ -6,6 +6,8 @@ import Audience from './audience';
 import Model from './model';
 import Cycle from './cycle';
 import Contact from './contact';
+import Principles from './principles';
+//this is 
 const App = () => {
   return (
     <div className="min-h-screen bg-white text-gray-900">
@@ -16,6 +18,7 @@ const App = () => {
         <div id="audience"><Audience /></div>
         <div id="model"><Model /></div>
         <div id="cycle"><Cycle /></div>
+        <div id="principles"><Principles /></div>
         <div id="contact"><Contact /></div>
       </main>
       <footer className="bg-white shadow mt-12">
