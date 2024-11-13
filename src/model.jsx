@@ -3,10 +3,10 @@ import React from 'react';
 const types = [
     { name: 'Concept', content: 'A theory, notion, or generalized idea' },
     { name: 'Principle', content: 'A fundamental truth, rule, or guideline' },
-    { name: 'Processe', content: 'A surface level series of actions carried out' },
+    { name: 'Process', content: 'A surface level series of actions carried out' },
     { name: 'Procedures', content: 'Specific steps to complete a process' },
     { name: 'Fact', content: 'A provable repeatable truth' },
-    { name: 'Structure', content: 'Any picture, diagram, drawing, or physical mode' }
+    { name: 'Structure', content: 'Any picture, diagram, drawing, or physical model' }
 ];
 
 const Model = () => {
