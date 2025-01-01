@@ -2,4 +2,4 @@
 
 Hosted on firebase
 
-Live on [https://greg-site-de305.web.app](https://greg-site-de305.web.app)
+Live on [https://businesslearningmodel.com](businesslearningmodel.com)
