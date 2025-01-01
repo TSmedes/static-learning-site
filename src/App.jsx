@@ -14,7 +14,7 @@ const App = () => {
     <div className="min-h-screen bg-white text-gray-900">
       <Header />
       <main className="w-auto">
-        <Intro />
+        <div id="intro"><Intro /></div>
         <div id="about"><About /></div>
         <div id="audience"><Audience /></div>
         <div id="cycle"><Cycle /></div>

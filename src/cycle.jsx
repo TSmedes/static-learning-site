@@ -10,7 +10,7 @@ const stages = [
 
 const Cycle = () => {
     return (
-        <div className="container mx-auto p-4 md:py-16 bg-[#eeeedc] text-[#333333]">
+        <div className="p-4 md:py-16 bg-[#eeeedc] text-[#333333]">
             <div className='mx-4 md:mx-[10vw] lg:mx-[20vw]'>
                 <div className="flex items-center mb-8">
                     <div className="flex-1">
