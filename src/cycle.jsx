@@ -10,13 +10,13 @@ const stages = [
 
 const Cycle = () => {
     return (
-        <div className="container mx-auto p-4 md:py-16 text-[#333333]">
+        <div className="p-4 md:py-16 bg-[#eeeedc] text-[#333333]">
             <div className='mx-4 md:mx-[10vw] lg:mx-[20vw]'>
                 <div className="flex items-center mb-8">
                     <div className="flex-1">
                         <h3 className="text-4xl mb-2 md:mb-10 text-center font-light">Adult Learning Cycle</h3>
-                        <p className="font-thin">&emsp;From these information types, I have developed a model I call the Adult Learning Cycle. This is the easiest way to visualize the most effective processes for adults to learn and retain knowledge and information.</p>
-                        <p className="font-thin"><br/>&emsp;The Adult Learning Cycle Model is a guideline to develop or teach lessons. It allows the teacher to always be oriented clearly in the lesson.</p>
+                        <p className="font-thin">&emsp;From these information types, I have developed a model I call the Adult Learning Cycle (ALC). This is the easiest way to visualize the most effective processes for adults to learn and retain knowledge and information.</p>
+                        <p className="font-thin"><br/>&emsp;The ALC is a guideline to develop or teach lessons. It allows the teacher to always be oriented clearly in the lesson.</p>
                     </div>
                 </div>
                 <div className='flex justify-center mb-4 md:mb-4'>
@@ -24,7 +24,7 @@ const Cycle = () => {
                 </div>
                 <div className="space-y-8 px-8 md:px-16 mb-4 md:mb-10">
                     {stages.map((stage, index) => (
-                        <div key={index} className="p-4 bg-white border-[0px] border-gray-300">
+                        <div key={index} className="p-4 border-[2px] border-gray-70000">
                             <h2 className="text-2xl font-light mb-2">{stage.name}</h2>
                             <p className=" font-thin">{stage.content}</p>
                         </div>
